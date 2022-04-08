@@ -1,0 +1,33 @@
+{
+	"partList": [
+		{
+			"uuid": "e1872a75-227f-43e7-b2f9-eb416fa12413",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/example_dif.tga",
+									"$MOD_DATA/Objects/Textures/example_asg.tga",
+									"$MOD_DATA/Objects/Textures/example_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						]
+					}
+				]
+			},
+			"rotationSet": "PropY",
+			"color": "8f8f8f",
+			"box": { "x": 1, "y": 1, "z": 1 },
+			"density": 500.0,
+			"physicsMaterial": "Plastic",
+			"sticky": "+X+Y",
+         "scripted": {
+            "filename": "$MOD_DATA/Scripts/MyShape.lua",
+            "classname": "MyShape"
+        }
+		}
+	]
+}
