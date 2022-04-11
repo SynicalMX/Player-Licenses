@@ -8,25 +8,26 @@
 						"subMeshList": [
 							{
 								"textureList": [
-									"$MOD_DATA/Objects/Textures/example_dif.tga",
-									"$MOD_DATA/Objects/Textures/example_asg.tga",
-									"$MOD_DATA/Objects/Textures/example_nor.tga"
+									"$MOD_DATA/Objects/Textures/tool_dif.png",
+									"$MOD_DATA/Objects/Textures/tool_asg.png",
+									"$MOD_DATA/Objects/Textures/tool_nor.png"
 								],
 								"material": "DifAsgNor"
 							}
-						]
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/object.obj"
 					}
 				]
 			},
 			"rotationSet": "PropY",
-			"color": "8f8f8f",
+			"color": "61d34a",
 			"box": { "x": 1, "y": 1, "z": 1 },
 			"density": 500.0,
 			"physicsMaterial": "Plastic",
 			"sticky": "+X+Y",
          "scripted": {
-            "filename": "$MOD_DATA/Scripts/MyShape.lua",
-            "classname": "MyShape"
+            "filename": "$MOD_DATA/Scripts/Tool.lua",
+            "classname": "Tool"
         }
 		}
 	]
